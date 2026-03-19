@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Manrope', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 700;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.email-link {
+  font-style: italic;
+  text-decoration: underline dashed;
+  color: inherit;
+}
